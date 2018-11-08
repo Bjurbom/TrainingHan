@@ -19,14 +19,17 @@ namespace TrainingHangul
         public Train()
         {
             InitializeComponent();
+
+            // setting the value of the file you can select
             openFileDialog1.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
+            //make so that picture can be strectch
             this.pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
         }
 
         private void loadIn_Click(object sender, EventArgs e)
         {
-            //Forms
+  
         }
 
         private void trainging_Load(object sender, EventArgs e)
@@ -41,20 +44,25 @@ namespace TrainingHangul
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //make the pop up that selected the file
             DialogResult result = openFileDialog1.ShowDialog();
+
+            //see if the result is ok       duh
             if(result == DialogResult.OK)
-            {
-                fileLocationStr = openFileDialog1.FileName;
+            {   
+                //show the user the directory
+                fileLocation.Text= openFileDialog1.FileName;
+
                 if (!openFileDialog1.CheckFileExists)
                 {
                     MessageBox.Show("The file do not exist", "Error");
                 }
-                fileLocation.Text = fileLocationStr;
-
+       
+                //saving the picture file in here
                 Picture = openFileDialog1;
 
                 
-
+                //make so that user can see which picture is selected in pictureBox
                 pictureBox1.ImageLocation = Picture.FileName;
             }
 
