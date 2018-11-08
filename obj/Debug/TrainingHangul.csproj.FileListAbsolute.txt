@@ -1,0 +1,11 @@
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\bin\Debug\TrainingHangul.exe.config
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\bin\Debug\TrainingHangul.exe
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\bin\Debug\TrainingHangul.pdb
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.csprojAssemblyReference.cache
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.Form1.resources
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.Properties.Resources.resources
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.csproj.GenerateResource.cache
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.csproj.CoreCompileInputs.cache
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.exe
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.pdb
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.trainging.resources
