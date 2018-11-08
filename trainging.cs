@@ -14,11 +14,14 @@ namespace TrainingHangul
     {
 
         string fileLocationStr;
-
+        OpenFileDialog Picture;
 
         public Train()
         {
             InitializeComponent();
+            openFileDialog1.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
+            this.pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
         }
 
         private void loadIn_Click(object sender, EventArgs e)
@@ -41,9 +44,21 @@ namespace TrainingHangul
             DialogResult result = openFileDialog1.ShowDialog();
             if(result == DialogResult.OK)
             {
-                fileLocationStr = openFileDialog1.FileName; 
+                fileLocationStr = openFileDialog1.FileName;
+                if (!openFileDialog1.CheckFileExists)
+                {
+                    MessageBox.Show("The file do not exist", "Error");
+                }
                 fileLocation.Text = fileLocationStr;
+
+                Picture = openFileDialog1;
+
+                
+
+                pictureBox1.ImageLocation = Picture.FileName;
             }
+
+
         }
     }
 }
