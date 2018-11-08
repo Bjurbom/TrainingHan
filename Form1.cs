@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TrainingHangul;
 
 namespace TrainingHangul
 {
@@ -25,6 +26,16 @@ namespace TrainingHangul
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void loadIn_Click(object sender, EventArgs e)
+        {
+            //make the other form
+            TrainingHangul.Train TrainWindow = new TrainingHangul.Train();
+
+            //shows the other window and closes this one
+            TrainWindow.Show();
+            this.Hide();
         }
     }
 }

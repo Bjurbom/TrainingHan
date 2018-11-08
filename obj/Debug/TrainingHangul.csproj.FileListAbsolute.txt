@@ -8,4 +8,4 @@ C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHang
 C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.csproj.CoreCompileInputs.cache
 C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.exe
 C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.pdb
-C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.trainging.resources
+C:\Users\torbj\Source\Repos\TrainingHangul\TrainingHangul\obj\Debug\TrainingHangul.Train.resources
